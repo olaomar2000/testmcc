@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.testmcc.chat.ChatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -41,7 +42,7 @@ class SingUpActivity : AppCompatActivity() {
     }
 
     fun updateUI() {
-        var i = Intent(this, MainActivity::class.java)
+        var i = Intent(this, ChatActivity::class.java)
         startActivity(i)
     }
 

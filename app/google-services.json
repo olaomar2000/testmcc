@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "914902913707",
+    "firebase_url": "https://mcciug-default-rtdb.firebaseio.com",
     "project_id": "mcciug",
     "storage_bucket": "mcciug.appspot.com"
   },
