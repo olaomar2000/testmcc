@@ -41,3 +41,4 @@ class MessagesAdapter(
         return messages.size
     }
 }
+
